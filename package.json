@@ -9,6 +9,8 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@mantine/core": "^8.3.5",
+    "@mantine/hooks": "^8.3.5",
     "@neondatabase/serverless": "^1.0.2",
     "@react-router/node": "^7.9.2",
     "@react-router/serve": "^7.9.2",
@@ -26,6 +28,9 @@
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "drizzle-kit": "^0.31.5",
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^4.1.13",
     "tsx": "^4.20.6",
     "typescript": "^5.9.2",
